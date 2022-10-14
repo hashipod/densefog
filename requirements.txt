@@ -1,0 +1,7 @@
+gevent
+Flask
+SQLAlchemy
+redis
+jsonschema
+PyMySQL
+shortuuid

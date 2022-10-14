@@ -1,0 +1,15 @@
+
+clone:
+  tags: true
+  depth: 50
+build:
+  image: plato/build
+  commands:
+    - contrib/build.sh
+notify:
+  slack:
+    webhook_url: https://hooks.slack.com/services/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
+    when:
+      success: true
+      failure: true
+      change: true
